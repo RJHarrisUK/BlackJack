@@ -9,10 +9,15 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import com.bae.blackjack.mainapp.Blackjack;
+//import com.bae.blackjack.twists.TwistOne;
 
 public class unitTests {
 	static Blackjack blackjack;
 
+//	public static void twistOneTest() {
+//	TwistOne.twist();
+//	}
+	
 	@BeforeClass
 	public static void setup() {
 		blackjack = new Blackjack();

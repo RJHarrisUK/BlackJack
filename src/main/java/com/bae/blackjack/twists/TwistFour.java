@@ -1,4 +1,6 @@
-package com.bae.blackjack.mainapp;
+package com.bae.blackjack.twists;
+
+import com.bae.blackjack.mainapp.Blackjack;
 
 public class TwistFour extends Blackjack{
 
