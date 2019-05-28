@@ -17,7 +17,6 @@ public class Blackjack{
 		else if (dealer == 21) {
 			return dealer;
 		}
-
 		else if ((player<3 || dealer<3) || (player<3 && dealer <3)) {
 			return -1;
 		}
